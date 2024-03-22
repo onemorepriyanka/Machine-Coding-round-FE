@@ -1,0 +1,64 @@
+:root {
+    --btn: #34ebdb;
+    --btn-hover: #34ebab;
+    --item-bg: #34d6eb;
+    --modal-bg: rgba(141, 141, 141, 0.541);
+  }
+  
+  body {
+    font-family: sans-serif;
+    padding: 0 10px;
+  }
+  
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header>button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--btn);
+    cursor: pointer;
+  }
+  
+  .header>button:hover {
+    background-color: var(--btn-hover);
+  }
+  .employees{
+    display: flex
+  }
+  .employees > div {
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 450px;
+  }
+  .employee__names {
+    width: 30%;
+  }
+  .employee__single{
+    width:70%;
+  }
+  .employee__names, .employee__single {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee__names--title, .employee__single--title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .employee__names--list{
+    display: flex;
+    flex-direction: column;
+  }
+  .employee__names--item{
+    
+  }
